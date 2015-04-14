@@ -1,0 +1,27 @@
+{
+  "name": "hexo-site",
+  "description": "A tutorial site for Promises/A+ in JavaScript.",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "new-post": "hexo new post new-post",
+    "start": "hexo server",
+    "generate": "hexo generate"
+  },
+  "hexo": {
+    "version": "3.0.1"
+  },
+  "dependencies": {
+    "hexo": "^3.0.0",
+    "hexo-cli": "^0.1.4",
+    "hexo-generator-archive": "^0.1.0",
+    "hexo-generator-category": "^0.1.0",
+    "hexo-generator-feed": "^1.0.1",
+    "hexo-generator-sitemap": "^1.0.1",
+    "hexo-generator-tag": "^0.1.0",
+    "hexo-renderer-ejs": "^0.1.0",
+    "hexo-renderer-marked": "^0.2.4",
+    "hexo-renderer-stylus": "^0.2.0",
+    "hexo-server": "^0.1.2"
+  }
+}
