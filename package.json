@@ -1,10 +1,10 @@
 {
-  "name": "hexo-site",
+  "name": "promises101",
   "description": "A tutorial site for Promises/A+ in JavaScript.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "tape test/*.js",
+    "test": "set -e; for FILE in `ls -1 test/*.js`; do echo \\# === $FILE ===; tape $FILE; done",
     "new-post": "hexo new post new-post",
     "start": "hexo server",
     "generate": "hexo generate"
